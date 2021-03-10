@@ -3,6 +3,7 @@
 <?import javafx.scene.layout.*?>
 
 <?import javafx.scene.text.Text?>
+<?import javafx.scene.control.TextField?>
 <GridPane xmlns="http://javafx.com/javafx"
           xmlns:fx="http://javafx.com/fxml"
           fx:controller="EventsFxMainPresenter"
@@ -24,6 +25,7 @@
 
     <children>
         <Text text="Agenda" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.rowSpan="4"/>
+        <TextField fx:id="userNameField" GridPane.columnIndex="1" GridPane.rowIndex="1"/>
     </children>
 
 </GridPane>
