@@ -23,7 +23,7 @@
     </rowConstraints>
 
     <children>
-        <Text text="Agenda" />
+        <Text text="Agenda" GridPane.rowIndex="0" GridPane.columnIndex="0" GridPane.rowSpan="4"/>
     </children>
 
 </GridPane>
